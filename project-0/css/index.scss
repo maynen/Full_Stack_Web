@@ -1,0 +1,24 @@
+%center_image
+{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8cm;
+  
+}
+
+img
+{
+     @extend %center_image
+}
+
+form
+{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+header > a
+{
+     margin-right: em;;
+}

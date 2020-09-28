@@ -1,0 +1,33 @@
+
+body{margin: 0%;}
+/*nav*/
+#nav
+{
+    display: grid;
+    grid-template-columns: 1fr 100px 100px;
+    grid-template-rows: 50px;
+    background: #f1f1f1;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    padding: 6px;
+    align-self: center;
+}
+#nav > img 
+{
+    height: 33px;
+    width: 92px;
+}
+#hader{color: #d93025; font-size: 20px; padding: 10px;}
+hr{border:0.5px solid #ebebeb}
+a{
+    font-size: 13px;
+}
+footer
+{
+    background: #f1f1f1;
+    height: 50px;
+    margin-top: 100px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
